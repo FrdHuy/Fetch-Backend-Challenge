@@ -1,0 +1,33 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+First, I chose Python as the development language and Flask as the development framework.
+I also considered Django and the Spring framework. But in the end, I chose Flask mainly because for this small job,
+Flask's functions are powerful enough to handle it, and the code has a more concise structure, making it easier to
+develop and read. Django and spring are also very excellent frameworks, but they are more suitable for large projects.
+Then, I used Postman to test the API. I can easily send various requests to server and view the response results to
+verify the correctness of the function.
+
+2. What are the advantages and disadvantages of your solution?
+Advantages:
+- The code structure is simple and clear, and the code is easy to read and maintain.
+- Flask allows for quick and easy setup, faster development, especially for smaller projects.
+- Using Postman for testing allowed for comprehensive and effective testing of API endpoints, ensuring they meet the expected outcomes.
+
+Disadvantages:
+- Performance is not as good as other languages such as Java and C++. Python might not be the best choice for high-performance requirements
+- Flask's scalability is not as good as Django's. Flask is more suitable for small projects, and Django is more suitable for large projects.
+  Its lack of certain built-in functionalities and conveniences found in more full-fledged frameworks like Django or Spring.
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+My favorite project this semester is that my group and I are designing a project to collect and analyze satellite data
+through a web crawler. My group and I are helping a non-profit organization of scientists collect satellite data.
+Because Musk's Starlink system has greatly increased satellite data, scientists can no longer use handwriting to obtain data.
+Automating the entire process will be the most efficient way.
+Challenge:
+1. In the process of designing this project, we have to keep in touch with the non-profit organizations to ensure that
+our project meets their needs. Communication is not a simple matter. Many times they do not understand what many technologies represent.
+We need to use various methods to understand their needs, etc.
+2. Obtain accurate data. By using Scrapy, I designed a crawler to efficiently obtain network data and ensure the accuracy of the data.
+Among them, I need to process a large amount of duplicate data and invalid data.
+3. Data processing and storage, we use mysql database to store and call data
+4. In order to make the data more useful and better visualized, we need to write front-end code to make the crawler’s csv file more readable.
+5. Maintain communication and learn technologies you don’t understand
